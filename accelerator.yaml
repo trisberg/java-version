@@ -23,7 +23,6 @@ accelerator:
 
 engine:
   merge:
-    - include: [ "**" ]
     - include: [ "pom.xml" ]
       chain:
       - type: ReplaceText
